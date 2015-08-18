@@ -1,0 +1,471 @@
+/*
+Theme Name: The Retreat
+Theme URI: http://www.theretreat.watkinsmagazine.com
+Description: Theme for The Retreat.
+Author: MediaParticle
+Author URI: http://www.mediaparticle.com/
+Version: 1.0
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+/************************
+	general usage
+*************************/
+body
+{
+	background-color: #fff !important;
+}
+
+a
+{
+	text-decoration: none !important;
+}
+
+hr
+{
+	border-top: 1px solid #cdcdcd;
+}
+
+.text-small
+{
+	font-size: 12px;
+}
+
+.rounded-button
+{
+	text-decoration: none;
+	background: #000;
+	color:#fff;
+	border: 1px solid #000;
+	border-radius:30px;
+	padding:10px 40px;
+}
+
+.rounded-button:hover
+{
+	border: 1px solid #000;
+	background: none;
+	text-decoration: none;
+	color:#000;
+}
+
+.text-date
+{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #be9656;
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+    /*font-weight: normal;*/
+    text-transform: uppercase;
+}
+
+.text-date span {
+    background:#fff;
+    color:#be9656;
+    padding:0 30px;
+}
+
+.text-middleline
+{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #7d7d7d;
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+    /*font-weight: normal;*/
+    text-transform: uppercase;
+}
+
+.text-middleline span {
+	background:#fff;
+    padding:0 30px;
+}
+
+.text-white
+{
+	color:white;
+}
+
+.no-pad
+{
+	padding: 0px;
+}
+
+.general-btn
+{
+	background:none;
+	border-radius:0px;
+	border:1px solid #cccccc;
+}
+
+.general-btn:hover
+{
+	background:#cccccc;
+	color: white;
+}
+
+.default-link-black
+{
+	text-decoration: none;
+	background: #000;
+	color:#fff;
+	padding: 10px 20px;
+	border: 1px solid #000;
+}
+
+.default-link-black:hover
+{
+	text-decoration: none;
+	border: 1px solid #000;
+	background: none;
+	color:#000;
+}
+
+.default-link-border
+{
+	text-decoration: none;
+	background: none;
+	color:#000;
+	padding: 10px 20px;
+	border: 1px solid #000;
+}
+
+.default-link-border:hover
+{
+	text-decoration: none;
+	background: #000;
+	color:#fff;
+	padding: 10px 20px;
+	border: 1px solid #000;
+}
+
+.section-header
+{
+	margin-bottom: 20px;
+}
+
+.site-section
+{
+	padding-bottom: 30px;
+}
+
+html, body
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+/*****************
+	navbar
+******************/
+.header-logo
+{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+nav
+{
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+nav.docked
+{
+	position: fixed;
+	top:0px;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	z-index: 99;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+	color:#fff;
+	background-color: #171717;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color: #000;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+	background: #000;
+	color:#fff;
+}
+
+.navbar-nav>li>a
+{
+  	text-transform: uppercase;
+  	font-size: 13px;
+  	color: white;
+  	line-height: 10px;
+}
+
+.navbar
+{
+	background: none;
+	border-color:#cdcdcd;
+	height: 40px;
+	padding: 0px;
+	margin: 0px;
+	min-height: 20px;
+	color: #000;
+}
+
+.navbar-toggle
+{
+	margin-top: 3px;
+	border:0px;
+}
+
+/*****************
+	Page navigation
+******************/
+.wp-pagenavi
+{
+	text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.wp-pagenavi .pages
+{
+	display: none;
+}
+
+.wp-pagenavi span.current
+{
+	border: 0px;
+}
+
+.wp-pagenavi a, .wp-pagenavi span
+{
+	border: 0px;
+}
+
+.wp-pagenavi .nextpostslink
+{
+    text-align: right;
+    text-transform: uppercase;
+    float: right;
+}
+
+.wp-pagenavi .previouspostslink
+{
+	text-align: left;
+    text-transform: uppercase;
+    float: left;
+}
+
+
+.overlay
+{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index:1;
+	background: rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	transition: all 0.5s;
+
+}
+
+.overlay:hover
+{
+	opacity: 1;
+}
+
+.overlay .overlay-text
+{
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    text-transform: uppercase;
+    color: white;
+    height: auto;
+    vertical-align: middle;
+    top: 45%;
+    left: 25%;
+    z-index: -1;
+}
+
+/**********************
+	Mailchimp
+***********************/
+#mc_embed_signup
+{
+	background: #fff;
+	position: relative;
+}
+
+#mc_embed_signup label
+{
+	font-size: 10px;
+}
+
+#mc_embed_signup form
+{
+	padding: 5px 10px;
+}
+
+#mc_embed_signup input.email
+{
+	width: 100%;
+    font-size: 12px;
+    border: 0px;
+    border: 2px solid black;
+    padding: 15px 10px;
+}
+#mc_embed_signup input.button
+{
+	background: none;
+	border:0px;
+	border-radius: 0px;
+	width: auto;
+	min-width: auto;
+	background: none;
+	font-size: 10px;
+	padding-right: 5px;
+	color:#000;
+}
+#mc-embedded-subscribe
+{
+    position: absolute;
+    bottom: 28px;
+    font-size: 10px;
+    right: 21px;
+    border: 0px;
+    height: auto;
+    color: #000;
+    background: none;
+    border-radius: 0px;
+}
+
+/**********************
+	Footer
+***********************/
+
+footer
+{
+	background-color: #222222 !important;
+	background: #222222 !important;
+	color: #fff;
+}
+
+.footer-menu
+{
+	padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-copyright
+{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #262626;
+}
+
+.footer-copyright label
+{
+	margin-bottom: 0px;
+	font-size: 12px;
+    line-height: 13px;
+}
+
+.footer-nav
+{
+	list-style: none;
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.footer-nav li
+{
+	display: inline-block;
+}
+
+.footer-nav li a
+{
+	color:white;
+	padding:5px 10px;
+}
+
+.footer-nav li a:hover
+{
+	color:#e8e8e8;
+}
+
+footer .social-nav
+{
+	text-align: right;
+    margin-top: 0px;
+}
+
+footer .social-nav .social-link
+{
+	padding: 5px 10px;
+}
+
+/** instafeed **/
+#instafeed
+{
+	margin-top: 30px;
+	border-bottom: 0px;
+}
+
+#instafeed .slick-slide
+{
+	width: 300px;
+	height: auto;
+	margin:0px;
+}
+
+#instafeed .slick-slide img
+{
+	width: 100%;
+}
+
+.instafeed div
+{
+	/*display: inline;*/
+	/*white-space: nowrap;*/
+}
